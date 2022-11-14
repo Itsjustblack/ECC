@@ -29,9 +29,8 @@ const index: NextPage = (props) => {
 	}, []);
 
 	return (
-		<div>
-			<NavWrapper>
-				<div className="pt-0">
+		<NavWrapper>
+			<div className="pt-0">
 					<div className="hidden lg:block">
 						<div className="bg-[#020D1B] w-full h-[255px] mt-10 rounded-[20px] flex flex-row relative">
 							<div className="text-white pl-[43px] py-[58.5px]">
@@ -76,7 +75,6 @@ const index: NextPage = (props) => {
 						</div>
 					</div>
 				</div>
-			</div>
 		</NavWrapper>
 	);
 };
